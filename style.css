@@ -123,6 +123,10 @@ li:last-child {
         width: 300px;
     }
 
+    .numbers {
+        width: 300px;
+    }
+
     button {
         width: 60px;
         height: 30px;
