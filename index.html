@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="time">
+            <div class="numbers">
+                <h2 id="num1">00 : 00 : 00</h2>
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="start()"><img src="play.png" alt=""></button>
+            <button onclick="showInterval()"><img src="save.png" alt=""></button>
+            <button onclick="stopTime()"><img src="pause-button.png" alt=""></button>
+            <button onclick="reset()"><img src="reset.png" alt=""></button>
+        </div>
+        <div class="laps">
+            <h3>Intervals:</h3>
+            <ol id="list">
+
+            </ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
