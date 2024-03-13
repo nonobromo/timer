@@ -36,6 +36,7 @@ function reset() {
 
     const list = document.querySelector("#list");
     list.innerHTML = "";
+    localStorage.clear();
 }
 
 function add() {
